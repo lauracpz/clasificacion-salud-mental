@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Entornos locales y secretos
+.venv/
+venv/
+.env
+
+# Datos del concurso y resultados locales
+data/raw/*
+!data/raw/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
