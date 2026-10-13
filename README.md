@@ -40,7 +40,7 @@ clasificacion-salud-mental/
 
 ## Datos
 
-El programa usa train.csv de [Exploring Mental Health Data, Kaggle Playground Series S4E11](https://www.kaggle.com/competitions/playground-series-s4e11). Descarga el archivo desde Kaggle y guárdalo como data/raw/train.csv. El CSV no se incluye en este repositorio.
+El programa usa train.csv de [Exploring Mental Health Data, Kaggle Playground Series S4E11](https://www.kaggle.com/competitions/playground-series-s4e11). Descarga el archivo desde Kaggle y guárdalo como data/raw/train.csv. El CSV se mantiene local y no se redistribuye como parte de este repositorio.
 
 El programa necesita la etiqueta Depression, codificada como 0 o 1. Ignora las columnas que no forman parte de los predictores definidos, como nombres, ciudad, profesión, titulación o hábitos alimentarios.
 
@@ -88,10 +88,6 @@ También se instala el comando clasificacion-salud-mental, que ejecuta el mismo 
 - **ROC AUC** mide la capacidad de ordenar casos positivos por encima de casos negativos a través de distintos umbrales.
 
 Los coeficientes guardados corresponden al modelo completo y a predictores escalados. Su signo indica una asociación dentro del modelo; no demuestra causalidad. La magnitud no se debe interpretar como una importancia clínica.
-
-## Resumen para CV
-
-Implementación de un flujo reproducible de clasificación binaria con regresión logística: limpieza y transformación de datos, comparación de dos conjuntos de predictores, validación estratificada y evaluación con métricas complementarias.
 
 ## Limitaciones
 
