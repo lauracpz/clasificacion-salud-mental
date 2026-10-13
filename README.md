@@ -2,7 +2,7 @@
 
 Proyecto académico de aprendizaje supervisado que compara dos modelos de regresión logística para clasificar la etiqueta Depression del conjunto de datos Exploring Mental Health Data. El modelo base usa tres variables y el modelo completo usa diez.
 
-El [análisis del problema](docs/analisis-del-problema.md) explica el objetivo, las variables, la preparación de datos, la interpretación del modelo y sus limitaciones. La [guía del código](docs/explicacion_linea_por_linea.md) describe la estructura del programa módulo por módulo.
+El [análisis del problema](docs/analisis-del-problema.md) explica el objetivo, las variables, la preparación de datos, la interpretación del modelo y sus limitaciones. La [guía del código](docs/guia-del-codigo.md) describe la estructura del programa módulo por módulo.
 
 > **Uso responsable:** este proyecto es académico. Sus predicciones no son diagnósticos ni deben usarse para tomar decisiones clínicas o personales.
 
@@ -25,7 +25,7 @@ clasificacion-salud-mental/
 │   └── raw/                         # train.csv local; no se sube a Git
 ├── docs/
 │   ├── analisis-del-problema.md
-│   └── explicacion_linea_por_linea.md
+│   └── guia-del-codigo.md
 ├── outputs/                         # archivos generados; no se suben a Git
 ├── src/
 │   └── mental_health_classification/
